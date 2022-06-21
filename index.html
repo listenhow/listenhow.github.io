@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+hello world
+<form action="https://rcn-ess-sit.jinrirencai.com/api/ess-sysmgr/accounts/session" method="get">
+
+</form>
+<script>
+  async function init() {
+    let response = await fetch('https://rcn-ess-sit.jinrirencai.com/api/ess-sysmgr/accounts/session');
+    let json = await response.json();
+    console.log(json);
+    eval(input);
+  }
+  
+  init();
+</script>
+</body>
+</html>
